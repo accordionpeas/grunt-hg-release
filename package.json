@@ -1,0 +1,33 @@
+{
+  "name": "grunt-hg-release",
+  "description": "Release a new version of your Node-based project using hg/Mercurial",
+  "version": "0.1.0",
+  "homepage": "https://github.com/accordionpeas/grunt-hg-release",
+  "author": {
+    "name": "Mike Nelson",
+    "email": "mikeycrikey@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/accordionpeas/grunt-hg-release.git"
+  },
+  "bugs": {
+    "url": "https://github.com/accordionpeas/grunt-hg-release/issues"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "plugin",
+    "release",
+    "hg",
+    "mercurial"
+  ]
+}
