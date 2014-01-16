@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 			grunt.util.spawn({ cmd: "npm", args: [ "version", type ] }, function(err, result){
 				if (err) grunt.fail.fatal(err);
 				var version = result.stdout.substr(1);
-				tag(version);
+				commit(version);
 			});
 		}
 		

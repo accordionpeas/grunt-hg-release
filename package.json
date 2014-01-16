@@ -1,7 +1,7 @@
 {
   "name": "grunt-hg-release",
   "description": "Release a new version of your Node-based project using hg/Mercurial",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/accordionpeas/grunt-hg-release",
   "author": {
     "name": "Mike Nelson",
