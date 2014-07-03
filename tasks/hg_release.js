@@ -40,6 +40,7 @@ module.exports = function(grunt) {
 			var tag = getMessage(options.tag, version);
 			grunt.util.spawn({ cmd: "hg", args: [ "tag", tag ] }, function(err, result){
 				if (err) grunt.fail.fatal(err);
+				grunt.log,ok('Bumped to version: ' + version);
 				done();
 			});
 		}
