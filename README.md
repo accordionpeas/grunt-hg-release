@@ -79,6 +79,7 @@ grunt hg_release:major
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+* 2014-07-03	v0.2.1	Bumped version after pull request merge.
 * 2014-07-03	v0.2.0	Log the new version to the console.
 * 2014-01-16	v0.1.1	Fixed commit process.
 * 2014-01-16	v0.1.0	Initial release.
