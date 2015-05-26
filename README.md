@@ -44,11 +44,11 @@ grunt.initConfig({
 
 #### options.commit
 Type: `String`
-Default value: `'release-<%= version %>'`
+Default value: `'{{version}}'`
 
 #### options.tag
 Type: `String`
-Default value: `'release-<%= version %>'`
+Default value: `'{{version}}'`
 
 The tag commit message.
 
@@ -79,6 +79,7 @@ grunt hg_release:major
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+* 2015-05-26	v0.2.2	Overwriting grunt templates as options doesn't work, so use different template syntax.
 * 2014-07-03	v0.2.1	Bumped version after pull request merge.
 * 2014-07-03	v0.2.0	Log the new version to the console.
 * 2014-01-16	v0.1.1	Fixed commit process.

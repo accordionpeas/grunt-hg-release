@@ -14,8 +14,8 @@ module.exports = function(grunt) {
 	
 		var done = this.async(),
 			options = this.options({
-				commit: 'release-<%= version %>',
-				tag: 'release-<%= version %>'
+				commit: '{{version}}',
+				tag: '{{version}}'
 			});
 			
 		bump();
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
 		}
 		
 		function getMessage(template, version){
-			return grunt.template.process(template, {data: {version: version}});
+			return template.replace(/{{version}}/g, version);
 		}
 	
 	});
